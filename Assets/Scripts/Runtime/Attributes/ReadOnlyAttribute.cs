@@ -1,9 +1,9 @@
 using UnityEngine;
 
-namespace Attributes
+namespace Runtime.Attributes
 {
     [System.Diagnostics.Conditional("UNITY_EDITOR")]
-    public class ReadOnly : PropertyAttribute
+    public class ReadOnlyAttribute : PropertyAttribute
     {
     }
 }

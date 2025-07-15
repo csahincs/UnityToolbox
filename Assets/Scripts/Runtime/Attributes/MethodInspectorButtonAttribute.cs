@@ -1,14 +1,15 @@
 using System;
 using UnityEngine;
 
-namespace Attributes
+namespace Runtime.Attributes
 {
+    [System.Diagnostics.Conditional("UNITY_EDITOR")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]
-    public class MethodButton : PropertyAttribute
+    public class MethodInspectorButtonAttribute : PropertyAttribute
     {
         public string MethodName { get; }
         
-        public MethodButton(string methodName = null)
+        public MethodInspectorButtonAttribute(string methodName = null)
         {
             MethodName = methodName;
         }
