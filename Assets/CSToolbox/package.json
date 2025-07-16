@@ -1,0 +1,14 @@
+{
+  "name": "com.cs.toolbox",
+  "version": "0.0.1",
+  "displayName": "CSToolbox",
+  "description": "Unity tools extension package",
+  "unity": "2019.1",
+  "dependencies": {
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "keywords": [
+    "tool",
+    "inspector"
+  ]
+}
