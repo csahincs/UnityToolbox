@@ -1,8 +1,8 @@
-using Runtime.Attributes;
+using CSToolbox.Runtime.Attributes;
 using UnityEditor;
 using UnityEngine;
 
-namespace Editor.CustomPropertyDrawers
+namespace CSToolbox.Editor.PropertyDrawers.Attributes
 {
     [CustomPropertyDrawer(typeof(ReadOnlyAttribute))]
     public class ReadOnlyAttributeDrawer : PropertyDrawer

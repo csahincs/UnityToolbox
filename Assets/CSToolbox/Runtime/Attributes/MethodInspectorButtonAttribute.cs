@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Runtime.Attributes
+namespace CSToolbox.Runtime.Attributes
 {
     [System.Diagnostics.Conditional("UNITY_EDITOR")]
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = true)]

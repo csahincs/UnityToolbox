@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Runtime.Attributes
+namespace CSToolbox.Runtime.Attributes
 {
     [System.Diagnostics.Conditional("UNITY_EDITOR")]
     public abstract class ConditionalVisibilityAttribute : PropertyAttribute

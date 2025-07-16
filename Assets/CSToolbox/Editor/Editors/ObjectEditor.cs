@@ -1,14 +1,14 @@
-using Editor.CustomPropertyDrawers;
+using CSToolbox.Editor.PropertyDrawers.Attributes;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Editor.CustomEditors
+namespace CSToolbox.Editor.Editors
 {
     [CustomEditor(typeof(Object), editorForChildClasses: true)]
     [CanEditMultipleObjects]
-    public class BaseObjectEditor : UnityEditor.Editor
+    public class ObjectEditor : UnityEditor.Editor
     {
         private VisualElement _rootElement;
         private MethodInspectorButtonDrawer _methodInspectorButtonDrawer;

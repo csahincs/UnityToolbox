@@ -1,9 +1,9 @@
 using System.Reflection;
-using Runtime.Attributes;
+using CSToolbox.Runtime.Attributes;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Editor.CustomPropertyDrawers
+namespace CSToolbox.Editor.PropertyDrawers.Attributes
 {
     public class MethodInspectorButtonDrawer
     {
